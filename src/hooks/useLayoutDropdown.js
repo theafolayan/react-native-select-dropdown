@@ -3,7 +3,7 @@ import {I18nManager, Dimensions} from 'react-native';
 import {getDropdownHeight} from '../helpers/getDropdownHeight';
 import {useKeyboardHeight} from './useKeyboardHeight';
 const {height} = Dimensions.get('window');
-const DROPDOWN_MAX_HEIGHT = height * 0.4;
+const DROPDOWN_MAX_HEIGHT = height * 0.8;
 
 export const useLayoutDropdown = (data, dropdownStyle) => {
   const [isVisible, setIsVisible] = useState(false); // dropdown visible ?
